@@ -14,10 +14,12 @@ for line in file1:
         #print('File' +str(i))
         if len(x) == 4:
             out_files[6].write(x[1] + ', ' + x[2] + ', ' + x[3] )
+			break
         else:
             if 'File' + str(i) in x :
             #print('Found File' + str(i))
                 out_files[i].write(x[1] + ', ' + x[2])
+				break
         #else:
                 #print(line)
             #out_files[6].write(x[1] + ', ' + x[2] + ', ' + x[3] )
