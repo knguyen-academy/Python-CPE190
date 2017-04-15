@@ -1,3 +1,5 @@
+#Created by Khoi Nguyen
+# 04-12-2017
 print("Program started.")
 file1 = open("test1.txt", "r")
 out_files=[]
